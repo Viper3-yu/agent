@@ -4,7 +4,8 @@ aliases: [A2A, Agent2Agent, Agent-to-Agent]
 tags:
   - framework
   - topic/agent
-  - status/mature
+  - status/reviewed
+  - meta/stale
 created: 2026-06-12
 updated: 2026-06-12
 spec_url: https://github.com/google/A2A
@@ -12,6 +13,8 @@ maintainer: Google / Linux Foundation
 transport: JSON-RPC 2.0 / gRPC / HTTP+JSON
 ---
 
+
+> ⚠️ 联网核查未通过（沙箱限制）；事实/版本可能过时，请审阅。— 2026-06-13
 # A2A 协议（Agent-to-Agent Protocol）
 
 > Google 于 2025 年 4 月发布，现由 Linux Foundation 治理。A2A 是 Agent 间横向通信的开放标准，解决 Agent 发现、任务委派和协作问题。2025 年 8 月，IBM 的 [[../MCP 协议/ACP 原理|ACP]] 正式并入 A2A。

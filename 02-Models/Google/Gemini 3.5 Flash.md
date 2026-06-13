@@ -3,7 +3,8 @@ title: Gemini 3.5 Flash
 aliases: [Gemini 3.5 Flash]
 tags:
   - model
-  - status/mature
+  - status/reviewed
+  - meta/stale
 created: 2026-06-12
 updated: 2026-06-12
 provider: Google
@@ -11,6 +12,8 @@ released: '2026-05-19'
 tier: 前沿快速（当前最新）
 ---
 
+
+> ⚠️ 联网核查未通过（沙箱限制）；事实/版本可能过时，请审阅。— 2026-06-13
 # Gemini 3.5 Flash
 
 > 覆盖 9 亿 Gemini 用户和 10 亿 AI Mode 用户的默认模型。

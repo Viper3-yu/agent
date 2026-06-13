@@ -4,7 +4,8 @@ aliases: [AGENTS.md, Agent Discoverability]
 tags:
   - framework
   - topic/agent
-  - status/mature
+  - status/reviewed
+  - meta/stale
 created: 2026-06-12
 updated: 2026-06-12
 language: Markdown
@@ -13,6 +14,8 @@ repo: "N/A（社区规范）"
 license: 开放标准
 ---
 
+
+> ⚠️ 联网核查未通过（沙箱限制）；事实/版本可能过时，请审阅。— 2026-06-13
 # AGENTS.md 规范
 
 > 仓库级别的 Agent 可发现性规范，类似 `.editorconfig` 之于编辑器。

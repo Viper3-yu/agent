@@ -4,7 +4,8 @@ aliases: [A2A AgentSkill, AgentCard Skills]
 tags:
   - framework
   - topic/agent
-  - status/mature
+  - status/reviewed
+  - meta/stale
 created: 2026-06-12
 updated: 2026-06-12
 language: JSON
@@ -13,6 +14,8 @@ repo: https://github.com/a2aproject/A2A
 license: Apache 2.0
 ---
 
+
+> ⚠️ 联网核查未通过（沙箱限制）；事实/版本可能过时，请审阅。— 2026-06-13
 # A2A Agent Skills
 
 > A2A 协议中 Agent Card 的核心组成部分。每个 A2A Agent 通过 Agent Card 声明自己的 Skills，让其他 Agent 能发现并理解自己的能力。

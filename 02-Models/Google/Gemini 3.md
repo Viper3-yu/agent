@@ -3,7 +3,8 @@ title: Gemini 3
 aliases: [Gemini 3]
 tags:
   - model
-  - status/mature
+  - status/reviewed
+  - meta/stale
 created: 2026-06-12
 updated: 2026-06-12
 provider: Google
@@ -11,6 +12,8 @@ released: '2025-11-18'
 tier: 旗舰
 ---
 
+
+> ⚠️ 联网核查未通过（沙箱限制）；事实/版本可能过时，请审阅。— 2026-06-13
 # Gemini 3
 
 Google 推出的旗舰模型，在 138 项基准测试中取得 142 项领先成绩，推理、多模态和编程能力全面升级。
