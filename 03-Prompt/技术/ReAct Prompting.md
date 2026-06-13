@@ -5,14 +5,12 @@ aliases:
 tags:
   - prompt
   - topic/agent
-  - status/reviewed
-  - meta/stale
+  - status/mature
 created: 2026-06-12
 updated: 2026-06-12
 ---
 
 
-> ⚠️ 联网核查未通过（沙箱限制）；事实/版本可能过时，请审阅。— 2026-06-13
 # ReAct Prompting
 
 > 结合推理(Reasoning)与行动(Acting)的提示词模式

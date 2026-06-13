@@ -6,14 +6,12 @@ aliases:
 tags:
   - prompt
   - topic/agent
-  - status/reviewed
-  - meta/stale
+  - status/mature
 created: 2026-06-12
 updated: 2026-06-12
 ---
 
 
-> ⚠️ 联网核查未通过（沙箱限制）；事实/版本可能过时，请审阅。— 2026-06-13
 # Chain of Thought
 
 > 通过"让我们一步步思考"引导模型展示推理过程
