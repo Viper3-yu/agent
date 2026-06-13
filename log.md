@@ -212,4 +212,25 @@ vault 规模：173 → **178 篇**，01-Concepts 26 → 31 篇，基础理论层
 - 数量变化（如 173 → 178）
 - 任何清理（已删除的临时文件）
 
--->
+-->## [2026-06-13] fix | 批量升级 143 篇 status 标签 (seed → reviewed/mature)
+
+**触发**：前一轮诊断发现 138/166 篇笔记 `status/seed`（83%），远超合理水位。
+
+**改动**：
+- 升级 mature 48 篇：in_links ≥ 3 + word_count ≥ 300 + sections ≥ 2
+- 升级 reviewed 95 篇：word_count ≥ 100 或 in_links ≥ 1
+- 保留 seed 5 篇（待 Claudian 补全）
+- 同时在 [[00-MOC/KB 构建规范]] §7 加规则 #7 和「分支策略」section
+
+**脚本**：`Inbox/_temp_status_upgrade.py`（跑后已删）
+
+**关键 bug 与修复**：
+- 第一次写 `for line in lines[:fm_end+1]:` → 143 篇 body 全没了
+- 改为 `for line in lines:`（遍历**全**行）→ 验证 `LoRA 与 QLoRA.md` 206 行完整保留
+- 加二进制 I/O 避免行尾被改（preserve CRLF/LF）
+
+**走分支**：`chore/workflow-2026-06-13` 分支，2 个 commit：
+- `3bd5e2e` meta(schema): 加分支策略
+- `2190740` meta(tags): 批量升级 status 标签
+
+未合并 main，等老大 review 点头。
