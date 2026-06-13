@@ -41,7 +41,19 @@ updated: 2026-06-13
 
 vault 净变化：197 个 .md 笔记 + 7 个 .obsidian 配置 = 209 tracked。
 
-> 远程仓库 URL 待老大提供后追加 `git remote add` + `git push -u origin main`。
+---
+
+## [2026-06-13] chore | 推送 GitHub 成功
+
+老大提供仓库 URL：`https://github.com/Viper3-yu/agent.git`
+- 远端有 1 个初始 commit（老大手写 README："这是obsidian 的agent知识库"）
+- 本地 rebase 把老大 README 留作根，3 个本地 commit 接到上面
+- `git push -u origin main` 成功：`b4521b8..8d64b33`
+
+**过程中补的 .gitignore**：
+- `.claudian/`（Claudian 会话日志，3029 行删除后忽略）
+
+**远端地址**：https://github.com/Viper3-yu/agent
 
 ---
 
