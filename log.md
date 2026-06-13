@@ -57,6 +57,21 @@ vault 净变化：197 个 .md 笔记 + 7 个 .obsidian 配置 = 209 tracked。
 
 ---
 
+## [2026-06-13] docs | 覆盖 README 为专业版（B 方案）
+
+老大决定 B：保留根 commit `b4521b8` 不动，覆盖 README 内容为专业版：
+- 三层架构描述（Raw / Wiki / Schema）
+- 目录速览 + 怎么用 + 维护说明
+- Commit 约定 + Karpathy 模式参考链接
+
+老大手写原文"这是obsidian 的agent知识库"被新 README 替代，但 commit 仍作为根保留。
+
+**学到的沙箱行为**：`github.com:443` 间歇性屏蔽，4-5 次 push 中 1-2 次能通——下次卡住多试几次。
+
+最终远端：`a5ad935..df4e59c` 推送成功，5 commits。
+
+---
+
 ## [2026-06-13] meta | KB 构建规范 v2 落地
 
 把第一版（凭直觉）改成 v2 显式对齐 Karpathy "LLM Wiki" 三层架构：
