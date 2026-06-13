@@ -273,3 +273,13 @@ vault 规模：173 → **178 篇**，01-Concepts 26 → 31 篇，基础理论层
 **净效果**：mature 8→12 / reviewed 131→127 / stale 36→32
 
 **后续建议**：等老大解除沙箱后用 WebFetch 拉 spec URL 重做核查，逐步把 32 篇转 mature。
+## [2026-06-13] query | 老大问"需要图片吗" → 下次加 Mermaid 3 张
+
+**结论**：先加 Mermaid（纯文本、git 可 diff、Obsidian 原生渲染），3 张高 ROI：
+1. 3 层架构图 → [[00-MOC/KB 构建规范]] §1
+2. feature branch 工作流图 → §7 分支策略
+3. MOC ↔ 笔记双向链接图 → §6 链接规范
+
+**分支预定**：`chore/mermaid-diagrams-2026-06-13`（下次开工再建）
+
+**未做**：截图（Graph View 染好色样子、Claude Code UI）按需补。
