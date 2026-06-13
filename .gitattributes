@@ -1,0 +1,13 @@
+# 行尾规范化：所有文本文件入库为 LF
+# Windows 上 git 会自动把 LF 转 CRLF 编辑，但入库保持 LF
+* text=auto eol=lf
+
+# 二进制文件显式声明，避免被强制转换
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.webp binary
+*.pdf binary
+*.ico binary
+*.woff2 binary

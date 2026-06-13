@@ -1,9 +1,10 @@
 # ===== Obsidian：追踪配置，忽略代码/缓存 =====
-# 保留：app.json / appearance.json / core-plugins.json / community-plugins.json / hotkeys.json / types.json / graph.json
-# 忽略：插件代码（plugins/ 41M）、主题（themes/ 1.1M）、窗口状态、缓存
+# 保留：app.json / appearance.json / core-plugins.json / community-plugins.json / hotkeys.json / types.json
+# 忽略：插件代码（plugins/ 41M）、主题（themes/ 1.1M）、窗口/图形状态、缓存
 
 .obsidian/workspace.json
 .obsidian/workspace-mobile.json
+.obsidian/graph.json              # 图形视图 per-device 状态
 .obsidian/plugins/
 .obsidian/themes/
 .obsidian/cache/

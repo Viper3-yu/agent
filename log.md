@@ -72,6 +72,23 @@ vault 净变化：197 个 .md 笔记 + 7 个 .obsidian 配置 = 209 tracked。
 
 ---
 
+## [2026-06-13] chore | 装 obsidian-git + 修配置
+
+老大装好 obsidian-git（社区插件），观察到三件事：
+
+1. **`.obsidian/graph.json` 应被 gitignore**——它是 Obsidian 图形视图 per-device 状态，每次开 Obsidian 都变
+   → 加入 .gitignore，从 tracking 移除
+
+2. **15 个 copilot 文件行尾 CRLF/LF 噪音**——rebase 时 Windows 自动转换
+   → 新建 `.gitattributes` 锁定 `* text=auto eol=lf`
+   → `git add --renormalize .` 一次性把所有文本文件规范化
+
+3. **`community-plugins.json` 正确添加了 `"obsidian-git"`**——gitignore 已让插件二进制不进 git，符合设计
+
+老大后续可按推荐设置配置 obsidian-git（5 分钟自动 commit + push）。
+
+---
+
 ## [2026-06-13] meta | KB 构建规范 v2 落地
 
 把第一版（凭直觉）改成 v2 显式对齐 Karpathy "LLM Wiki" 三层架构：
