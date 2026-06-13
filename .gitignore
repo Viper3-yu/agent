@@ -29,6 +29,7 @@ $RECYCLE.BIN/
 # ===== Claudian 临时 =====
 # 已应用的草稿由 Claudian 清理；如需审计可去掉下面注释
 # Inbox/_drafts/
+.claudian/
 
 # ===== 本地化敏感（按需）=====
 # 老大如不想跟某类笔记，加到这里
