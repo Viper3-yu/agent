@@ -3,7 +3,7 @@ title: LoRA 与 QLoRA
 aliases: [LoRA, QLoRA, Low-Rank Adaptation]
 tags:
   - concept
-  - status/seed
+  - status/mature
 category: 参数高效微调
 base_models: [LLaMA, Mistral, Qwen, ChatGLM]
 hardware: QLoRA 最低 16GB 显存；LoRA 需 24GB+

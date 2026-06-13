@@ -4,7 +4,7 @@ aliases: [A2A, Agent2Agent, Agent-to-Agent]
 tags:
   - framework
   - topic/agent
-  - status/seed
+  - status/mature
 created: 2026-06-12
 updated: 2026-06-12
 spec_url: https://github.com/google/A2A

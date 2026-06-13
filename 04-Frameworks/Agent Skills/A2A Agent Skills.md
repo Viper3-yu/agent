@@ -4,7 +4,7 @@ aliases: [A2A AgentSkill, AgentCard Skills]
 tags:
   - framework
   - topic/agent
-  - status/seed
+  - status/mature
 created: 2026-06-12
 updated: 2026-06-12
 language: JSON

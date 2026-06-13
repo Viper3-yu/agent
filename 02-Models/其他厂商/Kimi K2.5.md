@@ -3,7 +3,7 @@ title: Kimi K2.5
 aliases: [Kimi K2.5]
 tags:
   - model
-  - status/seed
+  - status/mature
 created: 2026-06-12
 updated: 2026-06-12
 provider: Moonshot AI

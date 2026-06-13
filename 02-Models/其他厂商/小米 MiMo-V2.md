@@ -3,7 +3,7 @@ title: 小米 MiMo-V2
 aliases: [MiMo-V2, 小米MiMo-V2]
 tags:
   - model
-  - status/seed
+  - status/reviewed
 created: 2026-06-12
 updated: 2026-06-12
 provider: Xiaomi

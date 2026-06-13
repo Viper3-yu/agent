@@ -4,7 +4,7 @@ aliases: [OpenAI Agents SDK, Responses API, OpenAI Agent Framework]
 tags:
   - framework
   - topic/agent
-  - status/seed
+  - status/reviewed
 created: 2026-06-12
 updated: 2026-06-12
 language: Python, TypeScript

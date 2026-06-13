@@ -4,7 +4,7 @@ aliases: [Reranker, 重排序模型]
 tags:
   - model
   - topic/rag
-  - status/seed
+  - status/reviewed
 created: 2026-06-12
 updated: 2026-06-12
 ---

@@ -3,7 +3,7 @@ title: Claude Fable 5
 aliases: [Claude Fable 5]
 tags:
   - model
-  - status/seed
+  - status/mature
 created: 2026-06-12
 updated: 2026-06-12
 provider: Anthropic

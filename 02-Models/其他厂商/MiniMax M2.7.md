@@ -3,7 +3,7 @@ title: MiniMax M2.7
 aliases: [MiniMax M2.7]
 tags:
   - model
-  - status/seed
+  - status/mature
 created: 2026-06-12
 updated: 2026-06-12
 provider: MiniMax

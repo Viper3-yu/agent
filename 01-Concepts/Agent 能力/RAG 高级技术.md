@@ -4,7 +4,7 @@ aliases: [Advanced RAG, 高级 RAG]
 tags:
   - concept
   - topic/rag
-  - status/seed
+  - status/mature
 created: 2026-06-12
 updated: 2026-06-12
 ---

@@ -4,7 +4,7 @@ aliases: [Parallelization, 并行执行]
 tags:
   - concept
   - topic/agent
-  - status/seed
+  - status/mature
 category: workflow
 complexity: medium
 source: "Anthropic: Building Effective Agents"

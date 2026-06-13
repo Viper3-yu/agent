@@ -4,7 +4,7 @@ aliases: [Autonomous Agent]
 tags:
   - concept
   - topic/agent
-  - status/seed
+  - status/reviewed
 created: 2026-06-12
 updated: 2026-06-12
 ---

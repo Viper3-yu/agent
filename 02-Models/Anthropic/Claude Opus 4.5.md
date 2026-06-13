@@ -3,7 +3,7 @@ title: Claude Opus 4.5
 aliases: [Claude Opus 4.5]
 tags:
   - model
-  - status/seed
+  - status/mature
 created: 2026-06-12
 updated: 2026-06-12
 provider: Anthropic

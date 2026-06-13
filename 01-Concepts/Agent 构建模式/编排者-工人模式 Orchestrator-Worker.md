@@ -4,7 +4,7 @@ aliases: [Orchestrator-Worker, 编排模式]
 tags:
   - concept
   - topic/agent
-  - status/seed
+  - status/mature
 category: workflow
 complexity: medium
 source: "Anthropic: Building Effective Agents"

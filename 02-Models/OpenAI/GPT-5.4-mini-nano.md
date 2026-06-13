@@ -3,7 +3,7 @@ title: GPT-5.4 mini / nano
 aliases: [GPT-5.4 mini / nano]
 tags:
   - model
-  - status/seed
+  - status/reviewed
 created: 2026-06-12
 updated: 2026-06-12
 provider: OpenAI

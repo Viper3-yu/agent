@@ -4,7 +4,7 @@ aliases: [提示链, Sequential Chaining]
 tags:
   - concept
   - topic/agent
-  - status/seed
+  - status/mature
 category: workflow
 complexity: low
 source: "Anthropic: Building Effective Agents"

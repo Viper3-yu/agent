@@ -3,7 +3,7 @@ title: DeepSeek V4
 aliases: [DeepSeek V4]
 tags:
   - model
-  - status/seed
+  - status/mature
 created: 2026-06-12
 updated: 2026-06-12
 provider: DeepSeek

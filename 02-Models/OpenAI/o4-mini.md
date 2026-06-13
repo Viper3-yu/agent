@@ -3,7 +3,7 @@ title: o4-mini
 aliases: [o4-mini]
 tags:
   - model
-  - status/seed
+  - status/reviewed
 created: 2026-06-12
 updated: 2026-06-12
 provider: OpenAI

@@ -4,7 +4,7 @@ aliases: [MS Agent Framework, Semantic Kernel, Microsoft Agent Framework]
 tags:
   - framework
   - topic/agent
-  - status/seed
+  - status/reviewed
 created: 2026-06-12
 updated: 2026-06-12
 language: Python, .NET

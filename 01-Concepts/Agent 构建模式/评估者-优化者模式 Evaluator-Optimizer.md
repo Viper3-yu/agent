@@ -4,7 +4,7 @@ aliases: [Evaluator-Optimizer, 生成-评估循环]
 tags:
   - concept
   - topic/agent
-  - status/seed
+  - status/mature
 category: workflow
 complexity: high
 source: "Anthropic: Building Effective Agents"

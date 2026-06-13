@@ -4,7 +4,7 @@ aliases: [Embedding, 向量模型, 文本嵌入]
 tags:
   - model
   - topic/rag
-  - status/seed
+  - status/mature
 created: 2026-06-12
 updated: 2026-06-12
 ---

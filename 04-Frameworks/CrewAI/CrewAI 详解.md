@@ -4,7 +4,7 @@ aliases: [CrewAI, Crew AI]
 tags:
   - framework
   - topic/multi-agent
-  - status/seed
+  - status/reviewed
 created: 2026-06-12
 updated: 2026-06-12
 language: Python

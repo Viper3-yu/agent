@@ -4,7 +4,7 @@ aliases: [HITL, 人机协作, 人在回路]
 tags:
   - concept
   - topic/agent
-  - status/seed
+  - status/mature
 category: safety
 complexity: medium
 source: "Anthropic: Building Effective Agents"

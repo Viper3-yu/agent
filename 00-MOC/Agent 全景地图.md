@@ -1,6 +1,6 @@
 ---
 title: Agent 全景地图
-status: seed
+status: mature
 tags:
   - topic/agent
   - MOC

@@ -3,7 +3,7 @@ title: DeepSeek R1
 aliases: [DeepSeek R1]
 tags:
   - model
-  - status/seed
+  - status/reviewed
 created: 2026-06-12
 updated: 2026-06-12
 provider: DeepSeek

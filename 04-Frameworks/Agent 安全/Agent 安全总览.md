@@ -4,7 +4,7 @@ aliases: [Agent 安全, Agent Security]
 tags:
   - framework
   - topic/safety
-  - status/seed
+  - status/mature
 category: framework
 url: ""
 created: 2026-06-12

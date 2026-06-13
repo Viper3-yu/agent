@@ -3,7 +3,7 @@ title: Microsoft MAI-Thinking-1
 aliases: [MAI-Thinking-1, Microsoft MAI-Thinking-1]
 tags:
   - model
-  - status/seed
+  - status/reviewed
 created: 2026-06-12
 updated: 2026-06-12
 provider: Microsoft

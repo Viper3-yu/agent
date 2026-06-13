@@ -3,7 +3,7 @@ title: Gemini 3.5 Flash
 aliases: [Gemini 3.5 Flash]
 tags:
   - model
-  - status/seed
+  - status/mature
 created: 2026-06-12
 updated: 2026-06-12
 provider: Google

@@ -1,6 +1,6 @@
 ---
 title: Agent CI-CD 集成
-status: seed
+status: reviewed
 tags:
   - topic/agent
   - harness

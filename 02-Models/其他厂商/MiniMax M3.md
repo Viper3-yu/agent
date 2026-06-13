@@ -3,7 +3,7 @@ title: MiniMax M3
 aliases: [MiniMax M3]
 tags:
   - model
-  - status/seed
+  - status/reviewed
 created: 2026-06-12
 updated: 2026-06-12
 provider: MiniMax

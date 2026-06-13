@@ -3,7 +3,7 @@ title: GPT-4.1
 aliases: [GPT-4.1]
 tags:
   - model
-  - status/seed
+  - status/mature
 created: 2026-06-12
 updated: 2026-06-12
 provider: OpenAI

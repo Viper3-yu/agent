@@ -3,7 +3,7 @@ title: GPT-4o
 aliases: [GPT-4o]
 tags:
   - model
-  - status/seed
+  - status/reviewed
 created: 2026-06-12
 updated: 2026-06-12
 provider: OpenAI

@@ -3,7 +3,7 @@ title: Gemini 2.5 Pro
 aliases: [Gemini 2.5 Pro]
 tags:
   - model
-  - status/seed
+  - status/mature
 created: 2026-06-12
 updated: 2026-06-12
 provider: Google

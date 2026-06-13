@@ -4,7 +4,7 @@ aliases:
   - CLAUDE.md
 tags:
   - framework
-  - status/seed
+  - status/mature
 created: 2026-06-12
 updated: 2026-06-12
 language: Markdown

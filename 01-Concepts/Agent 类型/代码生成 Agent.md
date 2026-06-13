@@ -4,7 +4,7 @@ aliases: [Coding Agent, Code Generation Agent]
 tags:
   - concept
   - topic/coding
-  - status/seed
+  - status/reviewed
 created: 2026-06-12
 updated: 2026-06-12
 ---
