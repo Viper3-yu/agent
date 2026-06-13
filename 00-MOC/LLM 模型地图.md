@@ -2,9 +2,9 @@
 title: LLM 模型地图
 status: reviewed
 tags:
-  - agent
+  - topic/agent
   - MOC
-  - models
+  - model
 created: 2026-06-10
 updated: 2026-06-13
 ---

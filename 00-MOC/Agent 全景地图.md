@@ -2,7 +2,7 @@
 title: Agent 全景地图
 status: seed
 tags:
-  - agent
+  - topic/agent
   - MOC
 created: 2026-06-10
 updated: 2026-06-10

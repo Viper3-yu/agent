@@ -2,10 +2,9 @@
 title: Agent CI-CD 集成
 status: seed
 tags:
-  - agent
+  - topic/agent
   - harness
-  - cicd
-  - devops
+  - topic/coding
 category: framework
 url: ""
 created: 2026-06-10

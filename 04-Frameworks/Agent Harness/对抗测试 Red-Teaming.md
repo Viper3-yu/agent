@@ -2,9 +2,9 @@
 title: 对抗测试 Red-Teaming
 status: seed
 tags:
-  - agent
+  - topic/agent
   - harness
-  - security
+  - topic/safety
   - red-team
 category: framework
 url: ""
