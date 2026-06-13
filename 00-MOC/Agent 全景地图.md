@@ -12,6 +12,8 @@ updated: 2026-06-10
 
 # Agent 全景地图
 
+> **导航**：[[欢迎|首页]] · [[LLM 基础理论地图|基础理论]] · [[LLM 模型地图|模型]] · [[Prompt Engineering 地图|Prompt]] · [[项目看板|项目]]
+
 ## 核心概念
 - [[../01-Concepts/Agent 架构/ReAct 架构|ReAct 架构]]
 - [[../01-Concepts/Agent 架构/多智能体架构|多智能体架构]]
@@ -45,6 +47,10 @@ updated: 2026-06-10
 
 ## Agent 产品
 - [[../04-Frameworks/Agent 产品/Claude Code 产品|Claude Code]] / [[../04-Frameworks/Agent 产品/Cursor|Cursor]] / [[../04-Frameworks/Agent 产品/Devin|Devin]]
+- [[../04-Frameworks/Agent 产品/Perplexity|Perplexity]]（AI 搜索）
+- [[../04-Frameworks/Agent 产品/Windsurf|Windsurf]]（Cursor 同类 IDE）
+- [[../04-Frameworks/Claude Code/Claude Code 命令参考|Claude Code 命令参考]]
+- [[../04-Frameworks/LlamaIndex/LlamaIndex|LlamaIndex]]（RAG 框架） / [[../04-Frameworks/CrewAI/Flow|CrewAI Flow]]（多 Agent 流程）
 
 ## 生产化
 - [[../04-Frameworks/Agent 可观测性/可观测性总览|可观测性]] / [[../04-Frameworks/Agent 可观测性/评估框架总览|评估框架]]

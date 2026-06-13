@@ -89,6 +89,46 @@ vault 净变化：197 个 .md 笔记 + 7 个 .obsidian 配置 = 209 tracked。
 
 ---
 
+## [2026-06-13] fix | 修复孤立笔记 14% → 2%
+
+老大观察到大量笔记之间无关联，调查发现 25/173 (14%) 是孤立笔记。修复：
+
+**根因分类**（25 → 4）：
+| 类别 | 数量 | 处理 |
+|------|------|------|
+| 故意独立 | 3（README/欢迎/测试） | 保留 |
+| 占位 | 8（05-Projects/06-Resources 下的占位） | 删除 |
+| MOC 缺入链 | 4（4 个 MOC 没人链到） | 加互链 + 重写欢迎 |
+| 真实笔记未挂 MOC | 10 | 补到对应 MOC |
+
+**变更**：
+- 新建 `00-MOC/LLM 基础理论地图.md` 收容 5 个新概念笔记
+- 重写 `欢迎.md` 为 vault 入口（链所有 5 个 MOC）
+- 4 个 MOC 顶部加互相导航条
+- LLM 模型地图补 3 条（Gemini 3.1 Pro / Flash-Lite / GPT-5.4-mini-nano）
+- Agent 全景地图补 5 条（Perplexity / Windsurf / Claude Code 命令参考 / LlamaIndex / CrewAI Flow）
+- 删除 8 个空占位笔记
+
+**效果**：
+- vault 笔记数：173 → 166
+- 孤儿率：14% → 2%
+- 5 个 MOC 互链 + 都有入链
+
+---
+
+## [2026-06-13] meta | 新建 Graph 视图配置指南
+
+老大问"图谱都是一种颜色"——根因是 `.obsidian/graph.json` 的 `colorGroups: []`。
+
+新建 `00-MOC/Graph 视图配置.md` 给出：
+- 8 组按目录路径的颜色映射（path:00-MOC 链→金 / 01-Concepts→紫 / ...）
+- 按 topic 标签的进阶配色
+- Juggl 插件安装 + 4 种着色维度（degree / closeness / community / tag）
+
+老大在 Obsidian UI 里手动设（graph.json 是 per-device，Claudian 不能直接改）。
+
+---
+
 ## [2026-06-13] meta | KB 构建规范 v2 落地
 
 把第一版（凭直觉）改成 v2 显式对齐 Karpathy "LLM Wiki" 三层架构：

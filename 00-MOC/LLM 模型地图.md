@@ -13,9 +13,12 @@ updated: 2026-06-13
 
 # LLM 模型地图
 
+> **导航**：[[欢迎|首页]] · [[LLM 基础理论地图|基础理论]] · [[Agent 全景地图|Agent]] · [[Prompt Engineering 地图|Prompt]] · [[项目看板|项目]]
+
 ## OpenAI
 - [[../02-Models/OpenAI/GPT-5.5|GPT-5.5]] ⭐ 最新旗舰
 - [[../02-Models/OpenAI/GPT-5|GPT-5]]
+- [[../02-Models/OpenAI/GPT-5.4-mini-nano|GPT-5.4-mini-nano]] 轻量衍生
 - [[../02-Models/OpenAI/GPT-Realtime-2|GPT-Realtime-2]] 多模态实时
 - [[../02-Models/OpenAI/o4-mini|o4-mini]] 推理
 - [[../02-Models/OpenAI/o3|o3]]
@@ -32,6 +35,8 @@ updated: 2026-06-13
 ## Google (Gemini)
 - [[../02-Models/Google/Gemini 3.5 Flash|Gemini 3.5 Flash]] ⭐ 最新
 - [[../02-Models/Google/Gemini 3|Gemini 3]]
+- [[../02-Models/Google/Gemini 3.1 Pro|Gemini 3.1 Pro]]
+- [[../02-Models/Google/Gemini 3.1 Flash-Lite|Gemini 3.1 Flash-Lite]] 轻量
 - [[../02-Models/Google/Gemini 2.5 Pro|Gemini 2.5 Pro]] / [[../02-Models/Google/Gemini 2.5 Flash|Gemini 2.5 Flash]]
 
 ## xAI (Grok)
