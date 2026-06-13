@@ -92,15 +92,15 @@ Google 开源的语言无关框架。**把文本当作字节流**（不需要预
 
 ## 各家 LLM 的选型
 
-| 模型 | Tokenizer | 特点 |
-|------|-----------|------|
-| GPT-4 / GPT-5 | cl100k_base（BBPE） | vocab ~100k，多语言偏弱 |
-| Claude 3/4 | 内部 BPE | 多语言平衡 |
-| Llama 2/3 | SentencePiece (BPE) | vocab 32k，多语言 OK |
-| Mistral | SentencePiece (BPE) | vocab 32k |
-| Qwen | SentencePiece (BPE) | vocab 152k，**中文友好** |
-| DeepSeek | BBPE | vocab 100k |
-| Gemini | SentencePiece (Unigram) | vocab 256k |
+| 模型            | Tokenizer               | 特点                  |
+| ------------- | ----------------------- | ------------------- |
+| GPT-4 / GPT-5 | cl100k_base（BBPE）       | vocab ~100k，多语言偏弱   |
+| Claude 3/4    | 内部 BPE                  | 多语言平衡               |
+| Llama 2/3     | SentencePiece (BPE)     | vocab 32k，多语言 OK    |
+| Mistral       | SentencePiece (BPE)     | vocab 32k           |
+| Qwen          | SentencePiece (BPE)     | vocab 152k，**中文友好** |
+| DeepSeek      | BBPE                    | vocab 100k          |
+| Gemini        | SentencePiece (Unigram) | vocab 256k          |
 
 ## 特殊 Token
 
