@@ -234,3 +234,21 @@ vault 规模：173 → **178 篇**，01-Concepts 26 → 31 篇，基础理论层
 - `2190740` meta(tags): 批量升级 status 标签
 
 未合并 main，等老大 review 点头。
+## [2026-06-13] fix | 降级 36 篇时间敏感 mature → reviewed + meta/stale
+
+**触发**：老大 review 后觉得 mature 门槛偏松——具体模型/版本/方法笔记联网核查过不了，不该 mature。
+
+**改动**：
+- 36 篇 mature → reviewed（同时加 `meta/stale` tag + body 头加 `> ⚠️ 联网核查未通过` 警告）
+- 保留 8 篇 mature（全为纯概念笔记：[[01-Concepts/Agent 构建模式/*]] + [[RAG 高级技术]]）
+- [[00-MOC/标签规范]] §4 新增「mature 的更严格门槛」+ meta/stale 配套 tag 解释
+
+**降级清单**：
+- 02-Models/* (22 篇) — 具体模型
+- 04-Frameworks/* (12 篇) — 框架/协议/工具
+- 06-Resources/微调/* (2 篇) — 2024 方法
+- 03-Prompt/链式/* (2 篇部分) — 提示技术
+
+**新规则**（[[00-MOC/标签规范]] §4）：mature 必须是**纯概念/方法论**笔记，不会因时间失真；时间敏感笔记一律 reviewed + meta/stale，等联网核查通过再升 mature。
+
+**当前分布**：mature 8 / reviewed 131 / seed 0 笔记 + 11 模板 / stale 36
