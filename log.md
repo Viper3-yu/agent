@@ -32,6 +32,19 @@ updated: 2026-06-13
 
 ---
 
+## [2026-06-13] chore | 初始化本地 git 仓库
+
+执行 [[../00-MOC/KB 构建规范#九、Git 版本管理|KB 构建规范 §9]] 实施步骤的前半段：
+- `git init -b main`
+- 写入 .gitignore（**调整**：忽略整个 `.obsidian/plugins/` 41M + `.obsidian/themes/` 1.1M，仅追踪 7 个配置 JSON）
+- 首次 commit `cf50c3c`：209 文件 / 18085 行 / `.git` 941K
+
+vault 净变化：197 个 .md 笔记 + 7 个 .obsidian 配置 = 209 tracked。
+
+> 远程仓库 URL 待老大提供后追加 `git remote add` + `git push -u origin main`。
+
+---
+
 ## [2026-06-13] meta | KB 构建规范 v2 落地
 
 把第一版（凭直觉）改成 v2 显式对齐 Karpathy "LLM Wiki" 三层架构：

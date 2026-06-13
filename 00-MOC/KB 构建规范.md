@@ -306,29 +306,36 @@ updated: YYYY-MM-DD
 
 **强建议启用**（详见 Karpathy 文章末尾"The wiki is just a git repo of markdown files"）。
 
-### `.gitignore` 模板
+### `.gitignore` 模板（实际使用版，2026-06-13 落地）
+
+**重要调整**：`.obsidian/plugins/` 是 41M（插件二进制）、`.obsidian/themes/` 是 1.1M，**全部排除**；只追踪配置 JSON，让新机器从 `core-plugins.json` / `community-plugins.json` 知道要装哪些插件，再从 Obsidian Community 重装。
 
 ```gitignore
-# Obsidian 个人/临时状态
+# ===== Obsidian：追踪配置，忽略代码/缓存 =====
 .obsidian/workspace.json
 .obsidian/workspace-mobile.json
-.obsidian/plugins/*/data.json
+.obsidian/plugins/
+.obsidian/themes/
 .obsidian/cache/
+.obsidian/plugins/*/data.json   # 兼容未来
 
-# 系统文件
+# ===== 系统文件 =====
 .DS_Store
 Thumbs.db
 desktop.ini
+$RECYCLE.BIN/
 
-# 编辑器临时文件
-*.swp
-*.tmp
-*.bak
+# ===== 编辑器临时文件 =====
+*.swp *.swo *.tmp *.bak *~
+.vscode/ .idea/
 
-# Claudian 草稿（已应用后由我清理）
-# 如需保留作审计：去掉下一行注释
-# Inbox/_drafts/
+# ===== Claudian 临时 =====
+# Inbox/_drafts/  # 已应用的草稿由我清理；如需审计可取消注释
 ```
+
+**保留跟踪的 .obsidian 文件**（新机器恢复必需）：
+- `app.json` / `appearance.json` / `hotkeys.json` / `types.json` / `graph.json`
+- `core-plugins.json` / `community-plugins.json`（插件列表）
 
 ### Commit 约定
 
@@ -346,18 +353,23 @@ desktop.ini
   chore(log): 新建 log.md
 ```
 
-### 实施步骤（老大批准后）
+### 实施步骤
 
 ```bash
 cd ~/obsidian1
-git init
+git init -b main
 # 写入上面的 .gitignore
-git add . && git commit -m "chore: 初始化 vault 快照（178 篇笔记）"
-# 创建私有远程仓库后
+git add . && git commit -m "chore: 初始化 vault 快照（197 篇笔记）"
+# 创建私有远程仓库后（见下）
 git remote add origin <your-private-repo-url>
 git push -u origin main
 # 安装 obsidian-git 插件，配置 5 分钟自动 commit
 ```
+
+**远程仓库选项**：
+- **GitHub 私有** — 全球访问、生态最好，Push 需科学上网
+- **Gitee 私有** — 国内速度快，免费 5 人仓库
+- **自建 Gitea/Forgejo** — 完全私有，最稳
 
 ---
 
