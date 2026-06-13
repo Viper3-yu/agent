@@ -252,3 +252,24 @@ vault 规模：173 → **178 篇**，01-Concepts 26 → 31 篇，基础理论层
 **新规则**（[[00-MOC/标签规范]] §4）：mature 必须是**纯概念/方法论**笔记，不会因时间失真；时间敏感笔记一律 reviewed + meta/stale，等联网核查通过再升 mature。
 
 **当前分布**：mature 8 / reviewed 131 / seed 0 笔记 + 11 模板 / stale 36
+## [2026-06-13] lint | 联网核查 36 篇 meta/stale 笔记
+
+**触发**：老大要求把 36 篇 meta/stale 笔记核查后收尾。
+
+**沙箱限制**：WebSearch (400) + WebFetch (domain verify fail) 都不可用。
+
+**处理**：
+- ✅ **4 篇升 mature**：纯学术/方法论基础，无时效性
+  - [[03-Prompt/技术/Chain of Thought]] (Wei 2022)
+  - [[03-Prompt/技术/ReAct Prompting]] (Yao 2022)
+  - [[06-Resources/微调/LoRA 与 QLoRA]] (Hu 2021/2023)
+  - [[06-Resources/微调/微调总览]] (概念)
+- ⏸️ **32 篇保留 reviewed + meta/stale**：版本/厂商敏感
+  - 22 模型笔记（骨架 + 联网无法验证日期/版本）
+  - 10 框架/工具笔记（spec 可能演进）
+
+**完整审计报告**：`Inbox/00-stale-audit-2026-06-13.md`（含工具状态、分类、后续建议）
+
+**净效果**：mature 8→12 / reviewed 131→127 / stale 36→32
+
+**后续建议**：等老大解除沙箱后用 WebFetch 拉 spec URL 重做核查，逐步把 32 篇转 mature。
