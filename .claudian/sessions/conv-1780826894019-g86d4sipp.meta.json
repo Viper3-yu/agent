@@ -1,0 +1,23 @@
+{
+  "id": "conv-1780826894019-g86d4sipp",
+  "providerId": "claude",
+  "title": "你好你是什么模型",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1780826894032,
+  "updatedAt": 1781148198193,
+  "lastResponseAt": 1780827149387,
+  "sessionId": "f8576c8b-8dab-4061-aead-940bde739b89",
+  "providerState": {
+    "providerSessionId": "f8576c8b-8dab-4061-aead-940bde739b89"
+  },
+  "usage": {
+    "model": "opus[1m]",
+    "inputTokens": 265,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 30272,
+    "contextWindow": 1000000,
+    "contextTokens": 30537,
+    "percentage": 3,
+    "contextWindowIsAuthoritative": true
+  }
+}

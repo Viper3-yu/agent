@@ -1,0 +1,23 @@
+{
+  "id": "conv-1781333100523-iml1uekj4",
+  "providerId": "claude",
+  "title": "你可以自行补全目前的知识库吗",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1781333100524,
+  "updatedAt": 1781339429530,
+  "lastResponseAt": 1781339429530,
+  "sessionId": "c365b602-f0ca-4f75-a324-5034180411ea",
+  "providerState": {
+    "providerSessionId": "c365b602-f0ca-4f75-a324-5034180411ea"
+  },
+  "usage": {
+    "model": "opus[1m]",
+    "inputTokens": 263,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 49529,
+    "contextWindow": 1000000,
+    "contextTokens": 49792,
+    "percentage": 5,
+    "contextWindowIsAuthoritative": true
+  }
+}

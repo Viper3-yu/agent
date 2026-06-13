@@ -1,0 +1,34 @@
+# ===== Obsidian：追踪配置，忽略代码/缓存 =====
+# 保留：app.json / appearance.json / core-plugins.json / community-plugins.json / hotkeys.json / types.json / graph.json
+# 忽略：插件代码（plugins/ 41M）、主题（themes/ 1.1M）、窗口状态、缓存
+
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/plugins/
+.obsidian/themes/
+.obsidian/cache/
+
+# 兼容未来如果装了 Templater 之类的用户级数据
+.obsidian/plugins/*/data.json
+
+# ===== 系统文件 =====
+.DS_Store
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# ===== 编辑器临时文件 =====
+*.swp
+*.swo
+*.tmp
+*.bak
+*~
+.vscode/
+.idea/
+
+# ===== Claudian 临时 =====
+# 已应用的草稿由 Claudian 清理；如需审计可去掉下面注释
+# Inbox/_drafts/
+
+# ===== 本地化敏感（按需）=====
+# 老大如不想跟某类笔记，加到这里
