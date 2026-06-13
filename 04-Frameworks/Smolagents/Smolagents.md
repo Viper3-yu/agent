@@ -4,7 +4,7 @@ aliases: [Smolagents, smol-agents, HuggingFace Agents]
 tags:
   - framework
   - topic/agent
-  - status/seed
+  - status/reviewed
 created: 2026-06-12
 updated: 2026-06-12
 language: Python

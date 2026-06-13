@@ -3,7 +3,7 @@ title: NVIDIA Nemotron 3
 aliases: [Nemotron 3, NVIDIA Nemotron 3]
 tags:
   - model
-  - status/seed
+  - status/reviewed
 created: 2026-06-12
 updated: 2026-06-12
 provider: NVIDIA

@@ -3,7 +3,8 @@ title: Grok 4
 aliases: [Grok 4]
 tags:
   - model
-  - status/seed
+  - status/reviewed
+  - meta/stale
 created: 2026-06-12
 updated: 2026-06-12
 provider: xAI
@@ -11,6 +12,8 @@ released: '2025-07-09'
 tier: 旗舰
 ---
 
+
+> ⚠️ 联网核查未通过（沙箱限制）；事实/版本可能过时，请审阅。— 2026-06-13
 # Grok 4
 
 xAI 推出的旗舰模型，在 86 项基准测试中取得 86 项领先成绩，推理、搜索和工具使用能力全面提升。

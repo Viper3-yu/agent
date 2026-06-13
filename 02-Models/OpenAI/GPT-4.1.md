@@ -3,7 +3,8 @@ title: GPT-4.1
 aliases: [GPT-4.1]
 tags:
   - model
-  - status/seed
+  - status/reviewed
+  - meta/stale
 created: 2026-06-12
 updated: 2026-06-12
 provider: OpenAI
@@ -11,6 +12,8 @@ released: '2025-04'
 tier: 编程增强
 ---
 
+
+> ⚠️ 联网核查未通过（沙箱限制）；事实/版本可能过时，请审阅。— 2026-06-13
 # GPT-4.1
 
 <!-- 概述待填写 -->

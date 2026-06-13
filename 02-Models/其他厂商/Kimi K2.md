@@ -3,7 +3,7 @@ title: Kimi K2
 aliases: [Kimi K2]
 tags:
   - model
-  - status/seed
+  - status/reviewed
 created: 2026-06-12
 updated: 2026-06-12
 provider: Moonshot AI

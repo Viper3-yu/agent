@@ -1,6 +1,6 @@
 ---
 title: 对抗测试 Red-Teaming
-status: seed
+status: mature
 tags:
   - topic/agent
   - harness

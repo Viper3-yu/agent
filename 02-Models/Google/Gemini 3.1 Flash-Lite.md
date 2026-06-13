@@ -3,7 +3,7 @@ title: Gemini 3.1 Flash-Lite
 aliases: [Gemini 3.1 Flash-Lite]
 tags:
   - model
-  - status/seed
+  - status/reviewed
 created: 2026-06-12
 updated: 2026-06-12
 provider: Google

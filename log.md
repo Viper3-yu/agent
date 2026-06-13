@@ -212,4 +212,43 @@ vault 规模：173 → **178 篇**，01-Concepts 26 → 31 篇，基础理论层
 - 数量变化（如 173 → 178）
 - 任何清理（已删除的临时文件）
 
--->
+-->## [2026-06-13] fix | 批量升级 143 篇 status 标签 (seed → reviewed/mature)
+
+**触发**：前一轮诊断发现 138/166 篇笔记 `status/seed`（83%），远超合理水位。
+
+**改动**：
+- 升级 mature 48 篇：in_links ≥ 3 + word_count ≥ 300 + sections ≥ 2
+- 升级 reviewed 95 篇：word_count ≥ 100 或 in_links ≥ 1
+- 保留 seed 5 篇（待 Claudian 补全）
+- 同时在 [[00-MOC/KB 构建规范]] §7 加规则 #7 和「分支策略」section
+
+**脚本**：`Inbox/_temp_status_upgrade.py`（跑后已删）
+
+**关键 bug 与修复**：
+- 第一次写 `for line in lines[:fm_end+1]:` → 143 篇 body 全没了
+- 改为 `for line in lines:`（遍历**全**行）→ 验证 `LoRA 与 QLoRA.md` 206 行完整保留
+- 加二进制 I/O 避免行尾被改（preserve CRLF/LF）
+
+**走分支**：`chore/workflow-2026-06-13` 分支，2 个 commit：
+- `3bd5e2e` meta(schema): 加分支策略
+- `2190740` meta(tags): 批量升级 status 标签
+
+未合并 main，等老大 review 点头。
+## [2026-06-13] fix | 降级 36 篇时间敏感 mature → reviewed + meta/stale
+
+**触发**：老大 review 后觉得 mature 门槛偏松——具体模型/版本/方法笔记联网核查过不了，不该 mature。
+
+**改动**：
+- 36 篇 mature → reviewed（同时加 `meta/stale` tag + body 头加 `> ⚠️ 联网核查未通过` 警告）
+- 保留 8 篇 mature（全为纯概念笔记：[[01-Concepts/Agent 构建模式/*]] + [[RAG 高级技术]]）
+- [[00-MOC/标签规范]] §4 新增「mature 的更严格门槛」+ meta/stale 配套 tag 解释
+
+**降级清单**：
+- 02-Models/* (22 篇) — 具体模型
+- 04-Frameworks/* (12 篇) — 框架/协议/工具
+- 06-Resources/微调/* (2 篇) — 2024 方法
+- 03-Prompt/链式/* (2 篇部分) — 提示技术
+
+**新规则**（[[00-MOC/标签规范]] §4）：mature 必须是**纯概念/方法论**笔记，不会因时间失真；时间敏感笔记一律 reviewed + meta/stale，等联网核查通过再升 mature。
+
+**当前分布**：mature 8 / reviewed 131 / seed 0 笔记 + 11 模板 / stale 36

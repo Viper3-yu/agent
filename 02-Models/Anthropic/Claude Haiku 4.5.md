@@ -3,7 +3,7 @@ title: Claude Haiku 4.5
 aliases: [Claude Haiku 4.5]
 tags:
   - model
-  - status/seed
+  - status/reviewed
 created: 2026-06-12
 updated: 2026-06-12
 provider: Anthropic

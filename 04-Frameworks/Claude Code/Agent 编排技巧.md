@@ -4,7 +4,8 @@ aliases:
   - Agent 编排
 tags:
   - framework
-  - status/seed
+  - status/reviewed
+  - meta/stale
 created: 2026-06-12
 updated: 2026-06-12
 language: Markdown
@@ -13,6 +14,8 @@ repo: "N/A（Claude Code 内置）"
 license: 商业许可
 ---
 
+
+> ⚠️ 联网核查未通过（沙箱限制）；事实/版本可能过时，请审阅。— 2026-06-13
 # Agent 编排技巧
 
 > Claude Code 中多 Agent 协作的技巧

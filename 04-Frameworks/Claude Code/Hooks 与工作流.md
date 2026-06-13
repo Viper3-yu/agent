@@ -4,7 +4,7 @@ aliases: [Claude Code Hooks, Hooks, Claude Code Workflows]
 tags:
   - framework
   - topic/claude-code
-  - status/seed
+  - status/reviewed
 created: 2026-06-12
 updated: 2026-06-12
 language: TypeScript/JavaScript

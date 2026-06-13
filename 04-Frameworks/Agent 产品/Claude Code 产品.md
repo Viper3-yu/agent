@@ -8,7 +8,7 @@ url: https://docs.anthropic.com/en/docs/claude-code
 tags:
   - framework
   - topic/coding
-  - status/seed
+  - status/reviewed
 created: 2026-06-12
 updated: 2026-06-12
 ---

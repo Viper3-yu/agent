@@ -4,7 +4,8 @@ aliases: [RAG Frameworks]
 tags:
   - framework
   - topic/rag
-  - status/seed
+  - status/reviewed
+  - meta/stale
 created: 2026-06-12
 updated: 2026-06-12
 language: "多语言"
@@ -13,6 +14,8 @@ repo: "N/A（索引页）"
 license: "各框架不同"
 ---
 
+
+> ⚠️ 联网核查未通过（沙箱限制）；事实/版本可能过时，请审阅。— 2026-06-13
 # RAG 框架总览
 
 > 专注 RAG 场景的框架和工具，提供文档处理、检索、生成的完整管线。

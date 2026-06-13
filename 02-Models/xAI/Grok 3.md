@@ -3,7 +3,7 @@ title: Grok 3
 aliases: [Grok 3]
 tags:
   - model
-  - status/seed
+  - status/reviewed
 created: 2026-06-12
 updated: 2026-06-12
 provider: xAI

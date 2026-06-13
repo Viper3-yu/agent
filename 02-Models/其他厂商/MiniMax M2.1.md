@@ -3,7 +3,7 @@ title: MiniMax M2.1
 aliases: [MiniMax M2.1]
 tags:
   - model
-  - status/seed
+  - status/reviewed
 created: 2026-06-12
 updated: 2026-06-12
 provider: MiniMax

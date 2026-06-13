@@ -4,7 +4,7 @@ aliases: [Reflexion, 自我反思架构]
 tags:
   - concept
   - topic/agent
-  - status/seed
+  - status/reviewed
 created: 2026-06-12
 updated: 2026-06-12
 ---

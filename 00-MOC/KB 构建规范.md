@@ -260,6 +260,7 @@ updated: YYYY-MM-DD
 4. **联网失败要标注**——⚠️ 标记未核实信息
 5. **新原始资料先读**——动手前必读 Clippings/ 和 log.md 最近 5 条
 6. **更新本 schema**——任何工作流变更先在这里改
+7. **改动必走 feature branch**——>5 文件或 >200 行改动必须开分支，老大 review 后再 merge（详见下方「分支策略」）
 
 ### Claudian 可直接做的事
 
@@ -274,6 +275,63 @@ updated: YYYY-MM-DD
 - "参考目前这篇笔记"——必须先找这篇笔记
 - "基于 X 优化 Y"——必须先读 X
 - 任何引用具体外部资料的问题
+
+### 分支策略（2026-06-13 新增）
+
+**核心规则**：`main` 分支**不可直改直推**。所有改动走 feature branch。
+
+| 改动规模 | 走法 |
+|---------|------|
+| **< 5 文件 且 < 200 行** | 可在 main 直改直推（schema 等小调整） |
+| **≥ 5 文件 或 ≥ 200 行** | **必须开 feature branch** |
+
+#### 分支命名
+
+`<type>/<scope>-<YYYY-MM-DD>`，例：
+- `chore/workflow-2026-06-13`
+- `fix/obsidian-graph-2026-06-13`
+- `feat/concept-rlhf-2026-06-13`
+
+#### 工作流
+
+```bash
+# 1. 从 main 切出
+git checkout main
+git pull origin main
+git checkout -b <branch-name>
+
+# 2. 改 + commit（每个逻辑改动一个 commit）
+git add -A
+git commit -m "type(scope): 描述"
+
+# 3. push feature branch
+git push -u origin <branch-name>
+
+# 4. 老大在 GitHub 远端 review
+#    https://github.com/Viper3-yu/agent/branches
+
+# 5. 老大点头后，merge
+git checkout main
+git merge --no-ff <branch-name>
+git push origin main
+
+# 6. 清理
+git branch -d <branch-name>
+git push origin --delete <branch-name>
+```
+
+#### 老大可选项：GitHub branch protection
+
+- 在 `https://github.com/Viper3-yu/agent/settings/branches` 设 main 为 protected
+- 勾 "Require pull request before merging"
+- 勾 "Require approvals"（单人 vault 可设 0 = 自己 approve）
+- 这样 Claudian 即使忘了开分支，push 也会被 GitHub 拒
+
+#### 教训（2026-06-13 第一次跑批量脚本踩坑）
+
+> 写脚本批量改 frontmatter 时，**必须遍历所有行，不能 `lines[:fm_end+1]`**。
+> 我第一次的脚本写了 `new_lines = []; for line in lines[:fm_end+1]: ...`，
+> 漏了 body 的 9204 行。143 篇笔记 body 全没了，幸在 feature branch 里没污染 main。
 
 ---
 

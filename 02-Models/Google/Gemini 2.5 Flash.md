@@ -3,7 +3,7 @@ title: Gemini 2.5 Flash
 aliases: [Gemini 2.5 Flash]
 tags:
   - model
-  - status/seed
+  - status/reviewed
 created: 2026-06-12
 updated: 2026-06-12
 provider: Google

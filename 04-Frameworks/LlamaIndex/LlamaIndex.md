@@ -5,7 +5,7 @@ tags:
   - framework
   - topic/rag
   - topic/data-agent
-  - status/seed
+  - status/reviewed
 created: 2026-06-10
 updated: 2026-06-10
 language: Python/TypeScript

@@ -3,7 +3,8 @@ title: Grok 4.20
 aliases: [Grok 4.20]
 tags:
   - model
-  - status/seed
+  - status/reviewed
+  - meta/stale
 created: 2026-06-12
 updated: 2026-06-12
 provider: xAI
@@ -11,6 +12,8 @@ released: '2026-02-17'
 tier: 旗舰
 ---
 
+
+> ⚠️ 联网核查未通过（沙箱限制）；事实/版本可能过时，请审阅。— 2026-06-13
 # Grok 4.20
 
 xAI 推出的旗舰模型，在 75 项基准测试中取得 77 项领先成绩，支持多 Agent 和 2M 超长上下文。

@@ -2,7 +2,7 @@
 title: Prompt 迭代方法论
 tags:
   - prompt
-  - status/seed
+  - status/reviewed
 created: 2026-06-12
 updated: 2026-06-12
 ---

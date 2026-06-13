@@ -4,11 +4,14 @@ aliases: [Embedding, 向量模型, 文本嵌入]
 tags:
   - model
   - topic/rag
-  - status/seed
+  - status/reviewed
+  - meta/stale
 created: 2026-06-12
 updated: 2026-06-12
 ---
 
+
+> ⚠️ 联网核查未通过（沙箱限制）；事实/版本可能过时，请审阅。— 2026-06-13
 # Embedding 模型总览
 
 > 将文本转换为向量（数值数组）的模型，是 RAG 和语义搜索的基础。

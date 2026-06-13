@@ -3,7 +3,8 @@ title: Claude Opus 4.8
 aliases: [Claude Opus 4.8]
 tags:
   - model
-  - status/seed
+  - status/reviewed
+  - meta/stale
 created: 2026-06-12
 updated: 2026-06-12
 provider: Anthropic
@@ -11,6 +12,8 @@ released: '2026-05-28'
 tier: 旗舰（当前最新）
 ---
 
+
+> ⚠️ 联网核查未通过（沙箱限制）；事实/版本可能过时，请审阅。— 2026-06-13
 # Claude Opus 4.8
 
 > 当前 Anthropic 最新旗舰。SWE-bench Pro 69.2%，超越 4.7。

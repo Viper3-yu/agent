@@ -3,7 +3,7 @@ title: DeepSeek V3
 aliases: [DeepSeek V3]
 tags:
   - model
-  - status/seed
+  - status/reviewed
 created: 2026-06-12
 updated: 2026-06-12
 provider: DeepSeek

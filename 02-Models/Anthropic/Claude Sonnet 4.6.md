@@ -3,7 +3,7 @@ title: Claude Sonnet 4.6
 aliases: [Claude Sonnet 4.6]
 tags:
   - model
-  - status/seed
+  - status/reviewed
 created: 2026-06-12
 updated: 2026-06-12
 provider: Anthropic

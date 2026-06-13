@@ -4,7 +4,7 @@ aliases: [Routing, 分类路由]
 tags:
   - concept
   - topic/agent
-  - status/seed
+  - status/mature
 category: workflow
 complexity: low
 source: "Anthropic: Building Effective Agents"

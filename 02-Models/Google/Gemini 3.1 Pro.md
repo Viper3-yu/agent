@@ -3,7 +3,8 @@ title: Gemini 3.1 Pro
 aliases: [Gemini 3.1 Pro]
 tags:
   - model
-  - status/seed
+  - status/reviewed
+  - meta/stale
 created: 2026-06-12
 updated: 2026-06-12
 provider: Google
@@ -11,6 +12,8 @@ released: '2026-02-19'
 tier: 旗舰
 ---
 
+
+> ⚠️ 联网核查未通过（沙箱限制）；事实/版本可能过时，请审阅。— 2026-06-13
 # Gemini 3.1 Pro
 
 Google 推出的旗舰模型，GPQA Diamond 达到 94.3%，在 186 项基准测试中取得 209 项领先，推理、Agent 和创意编程能力全面领先。
