@@ -392,8 +392,9 @@ $RECYCLE.BIN/
 ```
 
 **保留跟踪的 .obsidian 文件**（新机器恢复必需）：
-- `app.json` / `appearance.json` / `hotkeys.json` / `types.json` / `graph.json`
+- `app.json` / `appearance.json` / `hotkeys.json` / `types.json`
 - `core-plugins.json` / `community-plugins.json`（插件列表）
+- ~~`graph.json`~~ — 2026-06-15 已 untrack（per-device 状态，每次开 Obsidian 都变）
 
 ### Commit 约定
 
