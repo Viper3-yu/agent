@@ -4,7 +4,7 @@ aliases: [Model-Specific Prompting, GPT vs Claude vs Gemini, 跨模型 Prompt]
 tags:
   - prompt
   - topic/prompt
-  - status/draft
+  - status/reviewed
 created: 2026-06-15
 updated: 2026-06-15
 ---

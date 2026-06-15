@@ -4,7 +4,7 @@ aliases: [Building effective agents 复现, effective-agents-repro]
 tags:
   - project
   - topic/agent
-  - status/draft
+  - status/reviewed
 created: 2026-06-15
 updated: 2026-06-15
 status: 进行中

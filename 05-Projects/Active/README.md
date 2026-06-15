@@ -24,7 +24,8 @@ updated: 2026-06-15
 
 <!-- 项目列表：用 checklist 维护，每行一个项目链接 + 当前状态 -->
 
-- （无）
+- [ ] [[2026-06-repro-building-effective-agents/README|复现 Building effective agents]] — 用 LangGraph 跑通 5 个原始范式（启动于 2026-06-15）
+- [ ] [[2026-06-mcp-tool-agent/README|用 MCP 协议搭工具调用 Agent]] — 从零搭 MCP Server + Client 最小闭环（启动于 2026-06-15）
 
 ## 添加新项目
 

@@ -3,7 +3,7 @@ title: awesome 清单汇总
 aliases: [awesome 列表, AI 资源汇总, GitHub awesome 索引]
 tags:
   - MOC
-  - status/draft
+  - status/reviewed
 created: 2026-06-15
 updated: 2026-06-15
 ---

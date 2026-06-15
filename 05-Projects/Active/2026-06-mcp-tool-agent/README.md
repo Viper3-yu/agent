@@ -4,7 +4,7 @@ aliases: [MCP Tool Agent, MCP-Agent-Demo]
 tags:
   - project
   - topic/agent
-  - status/draft
+  - status/reviewed
 created: 2026-06-15
 updated: 2026-06-15
 status: 进行中

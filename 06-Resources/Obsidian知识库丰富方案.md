@@ -1,8 +1,9 @@
 ---
 created: 2026-06-15
-tags: [方案, 知识库, 信息流, 索引]
+updated: 2026-06-15
+tags: [方案, 知识库, 信息流, 索引, status/reviewed]
 type: 方案文档
-status: 草稿
+status: 草稿 → 已审（§5 全部采纳）
 ---
 
 # Obsidian 知识库丰富方案
