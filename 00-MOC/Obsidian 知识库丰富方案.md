@@ -258,7 +258,7 @@ Templates 文件夹已有 10 个模板，加一个 `Clipping 模板` 即可。
 如果信息量太大，**今天只做这两件事**就能让 D 线"通水"：
 
 1. **装 Obsidian Web Clipper** + **Fluent Reader**
-2. **导入 OPML 订阅文件**（见配套文件 [[RSS订阅清单-AI-Agent.opml]]）
+2. **导入 OPML 订阅文件**（见配套文件 [[../06-Resources/RSS订阅清单-AI-Agent.opml]]）
 
 跑一周后 Clippings 开始有内容了，A 线自然就有精读素材了。
 
@@ -266,7 +266,7 @@ Templates 文件夹已有 10 个模板，加一个 `Clipping 模板` 即可。
 
 ## 九、配套文件
 
-- [[RSS订阅清单-AI-Agent.opml]] —— 22 个已验证源，一键导入 RSS 阅读器
+- [[../06-Resources/RSS订阅清单-AI-Agent.opml]] —— 22 个已验证源，一键导入 RSS 阅读器
 - [[RSS订阅清单 使用说明]] —— 导入步骤 + 验证清单 + 工作流对接
 
 ---

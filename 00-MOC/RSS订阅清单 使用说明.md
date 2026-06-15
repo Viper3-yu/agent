@@ -6,7 +6,7 @@ type: 索引
 
 # RSS 订阅清单 · 使用说明
 
-> 配套文件：[[RSS订阅清单-AI-Agent.opml]]
+> 配套文件：[[../06-Resources/RSS订阅清单-AI-Agent.opml]]
 > 用途：建立 D 线（追踪前沿）的统一信息入口，配合「每日扫描 → Clippings → 每周精读」工作流。
 
 ## 一、这个清单解决什么问题
