@@ -61,6 +61,8 @@ updated: 2026-06-10
 
 ## 项目
 - → [[../05-Projects/Active|进行中的项目]]
+  - [[../05-Projects/Active/2026-06-repro-building-effective-agents/README|复现 Building effective agents]]（5 个原始范式）
+  - [[../05-Projects/Active/2026-06-mcp-tool-agent/README|MCP 工具调用 Agent]]（协议最小闭环）
 
 ## Agent Harness ⭐
 - [[../04-Frameworks/Agent Harness/Harness 总览|Harness 总览]]

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+  <head>
+    <title>AI / Agent 知识库 RSS 订阅清单</title>
+    <dateCreated>Mon, 15 Jun 2026 00:00:00 +0800</dateCreated>
+    <ownerName>obsidian1 vault</ownerName>
+  </head>
+  <body>
+    <!-- ============================================================ -->
+    <!-- Tier 1：核心源，日常必看（每天扫一遍）                            -->
+    <!-- ============================================================ -->
+    <outline text="🥇 Tier 1 - 核心源（日常必看）" title="🥇 Tier 1 - 核心源（日常必看）">
+      <!-- 论文 -->
+      <outline text="📚 论文" title="📚 论文">
+        <outline type="rss" text="arXiv - cs.AI (人工智能)" title="arXiv - cs.AI (人工智能)"
+                 xmlUrl="http://export.arxiv.org/rss/cs.AI"
+                 htmlUrl="https://arxiv.org/list/cs.AI/recent"/>
+        <outline type="rss" text="arXiv - cs.CL (NLP/LLM)" title="arXiv - cs.CL (NLP/LLM)"
+                 xmlUrl="http://export.arxiv.org/rss/cs.CL"
+                 htmlUrl="https://arxiv.org/list/cs.CL/recent"/>
+        <outline type="rss" text="arXiv - cs.MA (多智能体)" title="arXiv - cs.MA (多智能体)"
+                 xmlUrl="http://export.arxiv.org/rss/cs.MA"
+                 htmlUrl="https://arxiv.org/list/cs.MA/recent"/>
+        <outline type="rss" text="arXiv - cs.LG (机器学习)" title="arXiv - cs.LG (机器学习)"
+                 xmlUrl="http://export.arxiv.org/rss/cs.LG"
+                 htmlUrl="https://arxiv.org/list/cs.LG/recent"/>
+        <outline type="rss" text="Hugging Face Daily Papers (社区源)" title="Hugging Face Daily Papers (社区源)"
+                 xmlUrl="https://papers.takara.ai/api/feed"
+                 htmlUrl="https://huggingface.co/papers"/>
+      </outline>
+
+      <!-- 官方实验室 -->
+      <outline text="🏭 官方实验室博客" title="🏭 官方实验室博客">
+        <outline type="rss" text="Anthropic News (社区源)" title="Anthropic News (社区源)"
+                 xmlUrl="https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_anthropic_news.xml"
+                 htmlUrl="https://www.anthropic.com/news"/>
+        <outline type="rss" text="Anthropic Research (社区源)" title="Anthropic Research (社区源)"
+                 xmlUrl="https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_anthropic_research.xml"
+                 htmlUrl="https://www.anthropic.com/research"/>
+        <outline type="rss" text="Anthropic Engineering (社区源)" title="Anthropic Engineering (社区源)"
+                 xmlUrl="https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_anthropic_engineering.xml"
+                 htmlUrl="https://www.anthropic.com/engineering"/>
+        <outline type="rss" text="OpenAI News" title="OpenAI News"
+                 xmlUrl="https://openai.com/news/rss.xml"
+                 htmlUrl="https://openai.com/news"/>
+        <outline type="rss" text="Google DeepMind Blog" title="Google DeepMind Blog"
+                 xmlUrl="https://blog.google/innovation-and-ai/models-and-research/google-deepmind/feed/"
+                 htmlUrl="https://deepmind.google/blog/"/>
+      </outline>
+
+      <!-- 个人博主 -->
+      <outline text="✍️ 个人博主（最高价值）" title="✍️ 个人博主（最高价值）">
+        <outline type="rss" text="Simon Willison's Weblog" title="Simon Willison's Weblog"
+                 xmlUrl="https://simonwillison.net/atom/everything/"
+                 htmlUrl="https://simonwillison.net/"/>
+        <outline type="rss" text="Lilian Weng - Lil'Log" title="Lilian Weng - Lil'Log"
+                 xmlUrl="https://lilianweng.github.io/feed.xml"
+                 htmlUrl="https://lilianweng.github.io/"/>
+      </outline>
+    </outline>
+
+    <!-- ============================================================ -->
+    <!-- Tier 2：高价值源，每周看一次                                       -->
+    <!-- ============================================================ -->
+    <outline text="🥈 Tier 2 - 高价值源（每周看）" title="🥈 Tier 2 - 高价值源（每周看）">
+      <outline type="rss" text="Latent Space (文章/Newsletter)" title="Latent Space (文章/Newsletter)"
+               xmlUrl="https://www.latent.space/feed"
+               htmlUrl="https://www.latent.space/"/>
+      <outline type="rss" text="Latent Space (播客音频)" title="Latent Space (播客音频)"
+               xmlUrl="https://api.substack.com/feed/podcast/1084089.rss"
+               htmlUrl="https://www.latent.space/podcast"/>
+      <outline type="rss" text="The Batch (吴恩达)" title="The Batch (吴恩达)"
+               xmlUrl="https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_deeplearning_ai_the_batch.xml"
+               htmlUrl="https://www.deeplearning.ai/the-batch/"/>
+      <outline type="rss" text="Eugene Yan (应用科学/LLM 工程)" title="Eugene Yan (应用科学/LLM 工程)"
+               xmlUrl="https://eugeneyan.com/feeds/all.atom.xml"
+               htmlUrl="https://eugeneyan.com/writing/"/>
+      <outline type="rss" text="Chip Huyen" title="Chip Huyen"
+               xmlUrl="https://huyenchip.com/feed.xml"
+               htmlUrl="https://huyenchip.com/"/>
+      <outline text="Andrej Karpathy (YouTube, 需第三方桥接)" title="Andrej Karpathy (YouTube, 需第三方桥接)"
+               note="YouTube 无原生 RSS,可用 RSSHub: https://rsshub.app/youtube/user/AndrejKarpathy 或手动关注"/>
+      <outline type="rss" text="Papers with Code - 最新" title="Papers with Code - 最新"
+               xmlUrl="https://paperswithcode.com/latest/rss"
+               htmlUrl="https://paperswithcode.com/latest"/>
+    </outline>
+
+    <!-- ============================================================ -->
+    <!-- Tier 3：中文优质源（快速过滤/省翻译）                              -->
+    <!-- ============================================================ -->
+    <outline text="🥉 Tier 3 - 中文优质源" title="🥉 Tier 3 - 中文优质源">
+      <outline type="rss" text="机器之心" title="机器之心"
+               xmlUrl="https://www.jiqizhixin.com/rss"
+               htmlUrl="https://www.jiqizhixin.com/"/>
+      <outline type="rss" text="量子位" title="量子位"
+               xmlUrl="https://www.qbitai.com/feed"
+               htmlUrl="https://www.qbitai.com/"/>
+      <outline text="李宏毅 ML 课程 (B站/YouTube)" title="李宏毅 ML 课程 (B站/YouTube)"
+               note="非 RSS。B站搜: 李宏毅 / YouTube: https://www.youtube.com/@HungyiLeeNTU"/>
+      <outline text="跟李沐学 AI (B站论文带读)" title="跟李沐学 AI (B站论文带读)"
+               note="非 RSS。B站搜: 跟李沐学AI"/>
+      <outline text="宝玉的科技分享 (X/博客)" title="宝玉的科技分享 (X/博客)"
+               note="非 RSS。X: @dotey / 博客: https://baoyu.io"/>
+    </outline>
+
+    <!-- ============================================================ -->
+    <!-- 工具/镜像（备用）                                                 -->
+    <!-- ============================================================ -->
+    <outline text="🔧 工具与镜像（可选）" title="🔧 工具与镜像（可选）">
+      <outline text="awesome-AI-feeds (更多 AI RSS 源汇总)" title="awesome-AI-feeds (更多 AI RSS 源汇总)"
+               note="https://github.com/RSS-Renaissance/awesome-AI-feeds"/>
+      <outline text="RSSHub 文档 (把任何网站变 RSS)" title="RSSHub 文档 (把任何网站变 RSS)"
+               note="https://docs.rsshub.app"/>
+    </outline>
+  </body>
+</opml>

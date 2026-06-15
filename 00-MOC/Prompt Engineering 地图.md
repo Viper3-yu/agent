@@ -16,6 +16,7 @@ updated: 2026-06-12
 - [[../03-Prompt/技术/Tree of Thought|Tree of Thought (ToT)]]
 - [[../03-Prompt/技术/Self-Consistency|Self-Consistency]]
 - [[../03-Prompt/技术/System Prompt 设计|System Prompt 设计]]
+- [[../03-Prompt/技术/不同模型 Prompt 差异|不同模型 Prompt 差异]] ⭐ 跨模型实战
 
 ## 模板库
 - [[../03-Prompt/模板库/通用对话模板|通用对话模板]]
