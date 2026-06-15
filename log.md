@@ -202,6 +202,60 @@ vault 规模：173 → **178 篇**，01-Concepts 26 → 31 篇，基础理论层
 
 ---
 
+## [2026-06-15] query | 老大问"知识库还有哪些不完整？补全 + 你能接受哪些原始资料"
+
+本轮新会话起点。**重新扫描 vault 真实状态**（与 2026-06-13 旧报告有差异）：
+
+- ✅ 旧报告的 10 处断链 / 5 篇协议 / 5 个高优先概念 都已修
+- 🔴 新发现的真实缺口：4 篇基础理论占位（Transformer/Attention/对齐安全/Token）、14 篇 Agent 占位、8 个 0 文件目录、14 篇框架残留
+- 📋 可接受原始资料清单已给出（md/html/pdf/txt/图片 + URL 限定）
+
+老大回复"全部采纳 + 继续"。
+
+---
+
+## [2026-06-15] apply | 4 篇基础理论笔记落到 01-Concepts/基础理论/
+
+分支：`feat/concepts-fill-2026-06-15`
+
+应用 4 篇 Inbox/_drafts/concepts/ 草案（7 段式概念模板）：
+- `Transformer 架构.md`（2017 'Attention Is All You Need' 综述 + RoPE/ALiBi/YaRN 位置编码对比）
+- `Attention 机制.md`（Scaled Dot-Product / Multi-Head / Self/Cross/Masked + O(n²) 复杂度）
+- `对齐与安全.md`（SFT → RLHF/DPO/GRPO/Constitutional AI 完整流水 + 评估方法）
+- `Token 与上下文窗口.md`（8K→10M 档位 + KV Cache + Lost-in-the-Middle）
+
+同步修正 `00-MOC/LLM 基础理论地图.md`：
+- 修正 2 处断链（`Agent 架构/Transformer 架构` → `基础理论/Transformer 架构`、`Agent 能力/对齐与安全` → `基础理论/对齐与安全`）
+- 补 2 个新概念 wikilink（Attention 机制、Token 与上下文窗口）
+- 把 Token 与表示 / 模型架构 / 推理时控制 三个分组的归属理顺
+
+变更：+440 / -42 行，5 文件。基础理论层 9 → 13 篇。
+
+---
+
+## [2026-06-15] apply | 8 个 0 文件目录写 README 骨架
+
+分支：`feat/scaffold-projects-resources-2026-06-15`
+
+## 05-Projects（3 个）
+- `Active/README.md` — 进行中项目看板
+- `Planning/README.md` — 规划中项目库（backlog/research/blocked/dropped 4 状态）
+- `Archive/README.md` — 归档项目库（4 个触发归档的理由）
+
+## 06-Resources（5 个）
+- `Papers/README.md` — 论文索引（按主题分组占位）
+- `Articles/README.md` — 文章索引（4 段式结构）
+- `Tutorials/README.md` — 教程索引（hands_on: true 区分看过 vs 做过）
+- `Courses/README.md` — 课程索引（progress / hours_total / hours_done）
+- `People/README.md` — 关键人物索引（tracking_level 3 档 + 13 位推荐关注人物）
+
+每个 README 含 frontmatter（MOC/reviewed）+ 入口导航 + 命名约定 + 必填字段 + 添加流程 + 相关资源反链。零事实陈述、零风险——纯结构引导。
+
+vault 净变化：178 → 186 篇（净 +8 个 MOC），0 文件目录数：8 → 0。
+
+---
+
+
 <!-- 
 模板：
 ## [YYYY-MM-DD] <操作> | <一句话描述>
