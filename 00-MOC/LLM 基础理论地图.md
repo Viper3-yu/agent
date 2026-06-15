@@ -20,14 +20,16 @@ updated: 2026-06-13
 ## Token 与表示
 - [[../01-Concepts/基础理论/Tokenization|Tokenization（分词）]] — BPE / WordPiece / Unigram / SentencePiece 四大算法
 - [[../01-Concepts/基础理论/Embedding|Embedding（向量表示）]] — Word2Vec → BERT → CLIP 的演进 + MTEB 基准
+- [[../01-Concepts/基础理论/Token 与上下文窗口|Token 与上下文窗口]] — 上下文长度档位、KV Cache、Lost-in-the-Middle
 
 ## 模型架构
+- [[../01-Concepts/基础理论/Transformer 架构|Transformer 架构]] — Self-Attention + 位置编码 + Encoder/Decoder
+- [[../01-Concepts/基础理论/Attention 机制|Attention 机制]] — Scaled Dot-Product / Multi-Head / Cross / Masked
 - [[../01-Concepts/基础理论/MoE|MoE（混合专家）]] — 路由 + 专家，2024 以来旗舰标配
-- [[../01-Concepts/Agent 架构/Transformer 架构|Transformer 架构]]（位于 Agent 架构下，但属于基础理论）
 
 ## 推理时控制
 - [[../01-Concepts/基础理论/采样策略|采样策略]] — Temperature / Top-k / Top-p / Min-p / Beam
-- [[../01-Concepts/Agent 能力/对齐与安全|对齐与安全]]（在 Agent 能力下，但与采样紧密相关）
+- [[../01-Concepts/基础理论/对齐与安全|对齐与安全]] — SFT / RLHF / DPO / GRPO / Constitutional AI
 
 ## 部署与优化
 - [[../01-Concepts/基础理论/量化|量化]] — PTQ / QAT / GPTQ / AWQ / NF4 / GGUF
