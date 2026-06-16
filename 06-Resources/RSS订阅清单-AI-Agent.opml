@@ -8,6 +8,7 @@
   <body>
     <!-- ============================================================ -->
     <!-- Tier 1：核心源，日常必看（每天扫一遍）                            -->
+    <!-- 实测确认：arXiv/OpenAI/DeepMind/Simon/Lilian/机器之心 均可访问  -->
     <!-- ============================================================ -->
     <outline text="🥇 Tier 1 - 核心源（日常必看）" title="🥇 Tier 1 - 核心源（日常必看）">
       <!-- 论文 -->
@@ -24,28 +25,21 @@
         <outline type="rss" text="arXiv - cs.LG (机器学习)" title="arXiv - cs.LG (机器学习)"
                  xmlUrl="http://export.arxiv.org/rss/cs.LG"
                  htmlUrl="https://arxiv.org/list/cs.LG/recent"/>
-        <outline type="rss" text="Hugging Face Daily Papers (社区源)" title="Hugging Face Daily Papers (社区源)"
+        <outline type="rss" text="Hugging Face Daily Papers (社区桥接)" title="Hugging Face Daily Papers (社区桥接)"
                  xmlUrl="https://papers.takara.ai/api/feed"
                  htmlUrl="https://huggingface.co/papers"/>
       </outline>
 
       <!-- 官方实验室 -->
       <outline text="🏭 官方实验室博客" title="🏭 官方实验室博客">
-        <outline type="rss" text="Anthropic News (社区源)" title="Anthropic News (社区源)"
-                 xmlUrl="https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_anthropic_news.xml"
-                 htmlUrl="https://www.anthropic.com/news"/>
-        <outline type="rss" text="Anthropic Research (社区源)" title="Anthropic Research (社区源)"
-                 xmlUrl="https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_anthropic_research.xml"
-                 htmlUrl="https://www.anthropic.com/research"/>
-        <outline type="rss" text="Anthropic Engineering (社区源)" title="Anthropic Engineering (社区源)"
-                 xmlUrl="https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_anthropic_engineering.xml"
-                 htmlUrl="https://www.anthropic.com/engineering"/>
         <outline type="rss" text="OpenAI News" title="OpenAI News"
                  xmlUrl="https://openai.com/news/rss.xml"
                  htmlUrl="https://openai.com/news"/>
         <outline type="rss" text="Google DeepMind Blog" title="Google DeepMind Blog"
                  xmlUrl="https://blog.google/innovation-and-ai/models-and-research/google-deepmind/feed/"
                  htmlUrl="https://deepmind.google/blog/"/>
+        <outline text="Anthropic News (无原生 RSS，手动关注)" title="Anthropic News (无原生 RSS，手动关注)"
+                 note="Anthropic 官方无 RSS。请手动订阅邮件或定期访问 https://www.anthropic.com/news — 社区桥接源 raw.githubusercontent.com 在国内 DNS 不稳定，已移除以避免持续报错。如需 RSS：可用 RSSHub 自建实例订阅 /anthropic/news"/>
       </outline>
 
       <!-- 个人博主 -->
@@ -69,20 +63,17 @@
       <outline type="rss" text="Latent Space (播客音频)" title="Latent Space (播客音频)"
                xmlUrl="https://api.substack.com/feed/podcast/1084089.rss"
                htmlUrl="https://www.latent.space/podcast"/>
-      <outline type="rss" text="The Batch (吴恩达)" title="The Batch (吴恩达)"
-               xmlUrl="https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_deeplearning_ai_the_batch.xml"
-               htmlUrl="https://www.deeplearning.ai/the-batch/"/>
-      <outline type="rss" text="Eugene Yan (应用科学/LLM 工程)" title="Eugene Yan (应用科学/LLM 工程)"
-               xmlUrl="https://eugeneyan.com/feeds/all.atom.xml"
-               htmlUrl="https://eugeneyan.com/writing/"/>
+      <outline text="The Batch / 吴恩达 (无稳定 RSS，手动关注)" title="The Batch / 吴恩达 (无稳定 RSS，手动关注)"
+               note="Deeplearning.ai 无官方 RSS。社区桥接源依赖 raw.githubusercontent.com，国内不稳定。建议：订阅官方邮件 https://www.deeplearning.ai/the-batch/"/>
+      <outline text="Eugene Yan (无原生 RSS，手动关注)" title="Eugene Yan (无原生 RSS，手动关注)"
+               note="eugeneyan.com 站点未提供 RSS feed（head 无 alternate link）。建议：定期访问 https://eugeneyan.com/writing/，或关注作者 X @eugeneyan"/>
       <outline type="rss" text="Chip Huyen" title="Chip Huyen"
                xmlUrl="https://huyenchip.com/feed.xml"
                htmlUrl="https://huyenchip.com/"/>
-      <outline text="Andrej Karpathy (YouTube, 需第三方桥接)" title="Andrej Karpathy (YouTube, 需第三方桥接)"
-               note="YouTube 无原生 RSS,可用 RSSHub: https://rsshub.app/youtube/user/AndrejKarpathy 或手动关注"/>
-      <outline type="rss" text="Papers with Code - 最新" title="Papers with Code - 最新"
-               xmlUrl="https://paperswithcode.com/latest/rss"
-               htmlUrl="https://paperswithcode.com/latest"/>
+      <outline text="Andrej Karpathy (YouTube，需桥接)" title="Andrej Karpathy (YouTube，需桥接)"
+               note="YouTube 无原生 RSS。可直接订阅 YouTube 频道并开通知铃铛: https://www.youtube.com/@AndrejKarpathy"/>
+      <outline text="Papers with Code (无稳定 RSS)" title="Papers with Code (无稳定 RSS)"
+               note="paperswithcode.com 无原生 RSS。建议：定期访问 https://paperswithcode.com/latest 浏览最新带代码论文"/>
     </outline>
 
     <!-- ============================================================ -->
@@ -92,9 +83,8 @@
       <outline type="rss" text="机器之心" title="机器之心"
                xmlUrl="https://www.jiqizhixin.com/rss"
                htmlUrl="https://www.jiqizhixin.com/"/>
-      <outline type="rss" text="量子位" title="量子位"
-               xmlUrl="https://www.qbitai.com/feed"
-               htmlUrl="https://www.qbitai.com/"/>
+      <outline text="量子位 (无稳定 RSS)" title="量子位 (无稳定 RSS)"
+               note="qbitai.com 无稳定 RSS。建议：定期访问官网 https://www.qbitai.com，或用 RSSHub: https://rsshub.app/qbitai"/>
       <outline text="李宏毅 ML 课程 (B站/YouTube)" title="李宏毅 ML 课程 (B站/YouTube)"
                note="非 RSS。B站搜: 李宏毅 / YouTube: https://www.youtube.com/@HungyiLeeNTU"/>
       <outline text="跟李沐学 AI (B站论文带读)" title="跟李沐学 AI (B站论文带读)"
