@@ -4,16 +4,14 @@ aliases: [Gemini 2.5 Pro]
 tags:
   - model
   - status/reviewed
-  - meta/stale
 created: 2026-06-12
-updated: 2026-06-12
+updated: 2026-06-16
 provider: Google
 released: '2025-03'
 tier: 混合推理旗舰
 ---
 
 
-> ⚠️ 联网核查未通过（沙箱限制）；事实/版本可能过时，请审阅。— 2026-06-13
 # Gemini 2.5 Pro
 
 Google 推出的混合推理旗舰模型，支持深度思考推理与超长上下文窗口。

@@ -4,16 +4,14 @@ aliases: [Grok 4.1]
 tags:
   - model
   - status/reviewed
-  - meta/stale
 created: 2026-06-12
-updated: 2026-06-12
+updated: 2026-06-16
 provider: xAI
 released: '2025-09'
 tier: 旗舰
 ---
 
 
-> ⚠️ 联网核查未通过（沙箱限制）；事实/版本可能过时，请审阅。— 2026-06-13
 # Grok 4.1
 
 xAI 推出的旗舰模型，在 Grok 4 基础上进行迭代优化。

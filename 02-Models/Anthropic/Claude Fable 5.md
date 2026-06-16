@@ -4,16 +4,14 @@ aliases: [Claude Fable 5]
 tags:
   - model
   - status/reviewed
-  - meta/stale
 created: 2026-06-12
-updated: 2026-06-12
+updated: 2026-06-16
 provider: Anthropic
 released: '2026-06-09'
 tier: Mythos 级公开模型
 ---
 
 
-> ⚠️ 联网核查未通过（沙箱限制）；事实/版本可能过时，请审阅。— 2026-06-13
 # Claude Fable 5
 
 > 2026 年 6 月 9 日发布，Mythos 级公开模型，BenchmarkList 已收录 67 项基准。
@@ -25,8 +23,8 @@ tier: Mythos 级公开模型
 | 厂商 | Anthropic |
 | 发布日期 | 2026-06-09 |
 | 定位 | Mythos 级公开模型 |
-| 上下文窗口 | <!-- 待填写 --> |
-| API 定价 | <!-- 待填写 --> |
+| 上下文窗口 | 1M tokens |
+| API 定价 | $10/$50 per Mtok (input/output) |
 
 ## 核心能力
 - 编程
