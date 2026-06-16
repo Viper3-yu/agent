@@ -69,3 +69,24 @@ updated: 2026-06-10
 - [[../04-Frameworks/Agent Harness/评测管线设计|评测管线设计]]
 - [[../04-Frameworks/Agent Harness/对抗测试 Red-Teaming|对抗测试 Red-Teaming]]
 - [[../04-Frameworks/Agent Harness/Agent CI-CD 集成|Agent CI/CD 集成]]
+
+### 补充：构建模式（补充项）
+- [[../01-Concepts/Agent 构建模式/路由模式 Routing|路由模式 Routing]]
+- [[../01-Concepts/Agent 构建模式/并行化 Parallelization|并行化 Parallelization]]
+- [[../01-Concepts/Agent 构建模式/Human-in-the-Loop|Human-in-the-Loop]]
+
+### 补充：架构
+- [[../01-Concepts/Agent 架构/LATS|LATS]]
+- [[../01-Concepts/Agent 架构/Plan-and-Execute|Plan-and-Execute]]
+- [[../01-Concepts/Agent 架构/Reflexion|Reflexion]]
+
+### 补充：类型
+- [[../01-Concepts/Agent 类型/代码生成 Agent|代码生成 Agent]]
+- [[../01-Concepts/Agent 类型/多 Agent 协作|多 Agent 协作]]
+- [[../01-Concepts/Agent 类型/研究型 Agent|研究型 Agent]]
+- [[../01-Concepts/Agent 类型/自主 Agent|自主 Agent]]
+
+### 补充：能力
+- [[../01-Concepts/Agent 能力/工具使用|工具使用]]
+- [[../01-Concepts/Agent 能力/自我反思|自我反思]]
+- [[../01-Concepts/Agent 能力/规划与推理|规划与推理]]

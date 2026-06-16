@@ -74,3 +74,13 @@ updated: 2026-06-13
 
 ## 选型参考
 - → [[../02-Models/模型对比与选型|模型对比总表]]
+### 补充：历史版本与中间模型
+- [[../02-Models/Anthropic/Claude Opus 4.1|Claude Opus 4.1]]（已废弃）
+- [[../02-Models/Anthropic/Claude Opus 4.5|Claude Opus 4.5]]
+- [[../02-Models/Anthropic/Claude Opus 4.6|Claude Opus 4.6]]
+- [[../02-Models/Anthropic/Claude Opus 4.7|Claude Opus 4.7]]
+- [[../02-Models/DeepSeek/DeepSeek V3|DeepSeek V3]] / [[../02-Models/DeepSeek/DeepSeek V3.2|DeepSeek V3.2]]
+- [[../02-Models/Google/Gemini 3 Flash|Gemini 3 Flash]]
+- [[../02-Models/OpenAI/GPT-5.1|GPT-5.1]] / [[../02-Models/OpenAI/GPT-5.2|GPT-5.2]] / [[../02-Models/OpenAI/GPT-5.3-Codex|GPT-5.3-Codex]]
+- [[../02-Models/xAI/Grok Build|Grok Build]]
+- [[../02-Models/其他厂商/MiniMax M2.1|MiniMax M2.1]]
