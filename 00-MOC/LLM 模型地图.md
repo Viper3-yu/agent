@@ -13,7 +13,7 @@ updated: 2026-06-13
 
 # LLM 模型地图
 
-> **导航**：[[欢迎|首页]] · [[LLM 基础理论地图|基础理论]] · [[Agent 全景地图|Agent]] · [[Prompt Engineering 地图|Prompt]] · [[项目看板|项目]]
+> **导航**：[[LLM 基础理论地图|首页]] · [[LLM 基础理论地图|基础理论]] · [[Agent 全景地图|Agent]] · [[Prompt Engineering 地图|Prompt]] · [[项目看板|项目]]
 
 ## OpenAI
 - [[../02-Models/OpenAI/GPT-5.5|GPT-5.5]] ⭐ 最新旗舰

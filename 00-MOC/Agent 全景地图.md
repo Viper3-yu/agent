@@ -12,7 +12,7 @@ updated: 2026-06-10
 
 # Agent 全景地图
 
-> **导航**：[[欢迎|首页]] · [[LLM 基础理论地图|基础理论]] · [[LLM 模型地图|模型]] · [[Prompt Engineering 地图|Prompt]] · [[项目看板|项目]]
+> **导航**：[[LLM 基础理论地图|首页]] · [[LLM 基础理论地图|基础理论]] · [[LLM 模型地图|模型]] · [[Prompt Engineering 地图|Prompt]] · [[项目看板|项目]]
 
 ## 核心概念
 - [[../01-Concepts/Agent 架构/ReAct 架构|ReAct 架构]]

@@ -7,7 +7,7 @@ updated: 2026-06-12
 
 # Prompt Engineering 地图
 
-> **导航**：[[欢迎|首页]] · [[LLM 基础理论地图|基础理论]] · [[LLM 模型地图|模型]] · [[Agent 全景地图|Agent]] · [[项目看板|项目]]
+> **导航**：[[LLM 基础理论地图|首页]] · [[LLM 基础理论地图|基础理论]] · [[LLM 模型地图|模型]] · [[Agent 全景地图|Agent]] · [[项目看板|项目]]
 
 ## 核心技术
 - [[../03-Prompt/技术/Chain of Thought|Chain of Thought (CoT)]]
