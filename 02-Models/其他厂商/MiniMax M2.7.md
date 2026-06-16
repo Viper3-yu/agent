@@ -4,15 +4,13 @@ aliases: [MiniMax M2.7]
 tags:
   - model
   - status/reviewed
-  - meta/stale
 created: 2026-06-12
-updated: 2026-06-12
+updated: 2026-06-16
 provider: MiniMax
 released: '2026-04'
 tier: 中端
 ---
 
-> ⚠️ 联网核查未通过（沙箱限制）；事实/版本可能过时，请审阅。— 2026-06-13
 # MiniMax M2.7
 
 > 100K 输入/20K 输出，同级最大上下文

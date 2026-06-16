@@ -4,15 +4,13 @@ aliases: [Kimi K2.5]
 tags:
   - model
   - status/reviewed
-  - meta/stale
 created: 2026-06-12
-updated: 2026-06-12
+updated: 2026-06-16
 provider: Moonshot AI
 released: '2026-01-27'
 tier: 旗舰
 ---
 
-> ⚠️ 联网核查未通过（沙箱限制）；事实/版本可能过时，请审阅。— 2026-06-13
 # Kimi K2.5
 
 > Moonshot AI 旗舰模型，1040B 参数，15T tokens 训练数据，MIT 许可证。

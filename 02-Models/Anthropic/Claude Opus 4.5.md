@@ -4,16 +4,14 @@ aliases: [Claude Opus 4.5]
 tags:
   - model
   - status/reviewed
-  - meta/stale
 created: 2026-06-12
-updated: 2026-06-12
+updated: 2026-06-16
 provider: Anthropic
 released: '2025-11'
 tier: 旗舰
 ---
 
 
-> ⚠️ 联网核查未通过（沙箱限制）；事实/版本可能过时，请审阅。— 2026-06-13
 # Claude Opus 4.5
 
 <!-- 概述待填写 -->

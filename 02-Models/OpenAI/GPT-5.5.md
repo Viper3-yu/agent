@@ -4,16 +4,14 @@ aliases: [GPT-5.5]
 tags:
   - model
   - status/reviewed
-  - meta/stale
 created: 2026-06-12
-updated: 2026-06-12
+updated: 2026-06-16
 provider: OpenAI
 released: '2026-04-23'
 tier: 旗舰（当前最新）
 ---
 
 
-> ⚠️ 联网核查未通过（沙箱限制）；事实/版本可能过时，请审阅。— 2026-06-13
 # GPT-5.5
 
 > 当前 OpenAI 最强模型。Terminal-Bench 2.0 得分 82.7%，2026 年 4 月 23 日发布。
@@ -25,8 +23,8 @@ tier: 旗舰（当前最新）
 | 厂商 | OpenAI |
 | 发布日期 | 2026-04-23 |
 | 定位 | 旗舰（当前最新） |
-| 上下文窗口 | <!-- 待填写 --> |
-| API 定价 | <!-- 待填写 --> |
+| 上下文窗口 | 1M tokens |
+| API 定价 | $5/$30 per Mtok (input/output) |
 
 ## 核心能力
 - Terminal-Bench 2.0: 82.7%

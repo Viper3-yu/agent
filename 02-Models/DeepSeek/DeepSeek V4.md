@@ -4,16 +4,14 @@ aliases: [DeepSeek V4]
 tags:
   - model
   - status/reviewed
-  - meta/stale
 created: 2026-06-12
-updated: 2026-06-12
+updated: 2026-06-16
 provider: DeepSeek
 released: '2026-01-22'
 tier: 开源旗舰（当前最新）
 ---
 
 
-> ⚠️ 联网核查未通过（沙箱限制）；事实/版本可能过时，请审阅。— 2026-06-13
 # DeepSeek V4
 
 > V4-Flash 价格 $0.14/$0.28 per Mtok，行业价格地板。开源 MoE 模型。
